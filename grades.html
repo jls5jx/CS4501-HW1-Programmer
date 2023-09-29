@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="gradestyles.css">
+  <title>Grades</title>
+</head>
+
+<body>
+  <h1>Grades</h1>
+  <table border="1">
+    <tr>
+      <td class="hover-tooltip" data-popup-text="93">CS 4501</td>
+      <td class="hover-tooltip" data-popup-text="89">ANTH 2400</td>
+      <td class="hover-tooltip" data-popup-text="95">ARTS 2000</td>
+      <td class="hover-tooltip" data-popup-text="76">CS 2100</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>B+</td>
+      <td>A</td>
+      <td>C</td>
+    </tr>
+  </table>
+  <p>Hover over each class to see numeric grade.</p>
+  <div class="popup" id="popup">
+    This is the pop-up content.
+  </div>
+  <script src="gradescript.js"></script>
+</body>
+
+</html>

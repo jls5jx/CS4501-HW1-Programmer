@@ -1,6 +1,15 @@
 body{
+  font-family:          papyrus;
   margin: 0;
   padding: 0;
+  color: #819595;
+  background: #696773;
+}
+p{
+  font-family: comic sans ms;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 nav{
   position: fixed;
@@ -10,6 +19,16 @@ nav ul li{
   display: inline;
 }
 nav ul li a {
-  color: black;
+  color: #819595;
   text-decoration: none;
+}
+
+@keyframes flash {
+    0% { color: blue; }
+    50% { color: yellow; }
+    100% { color: #696773; }
+}
+
+.flashing-text {
+    animation: flash 1s infinite; /* 1s duration, infinite looping */
 }

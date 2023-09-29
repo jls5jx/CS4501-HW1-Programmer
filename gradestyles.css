@@ -1,0 +1,40 @@
+body{
+  font-family: papyrus;
+  margin: 50;
+  padding: 0;
+  color: #819595;
+  background: #696773;
+}
+
+p{
+  font-family: comic sans ms;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.hover-tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.hover-table th,
+.hover-table td {
+    padding: 8px;
+    text-align: left;
+}
