@@ -4,10 +4,9 @@ body{
   padding: 0;
   color: #819595;
   background: #696773;
-  background-image: url('https://news.virginia.edu/sites/default/files/uva_sunrise_aerial.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-}
+  background-image: url('https://news.virginia.edu/sites/default/files/uva_sunrise_aerial.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 p{
   font-family: comic sans ms;
