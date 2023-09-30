@@ -15,8 +15,8 @@ p{
   top: 0;
 }
 nav{
-  bottom: 0;
   text-align: center;
+  bottom: 0;
 }
 nav ul li{
   display: inline;
