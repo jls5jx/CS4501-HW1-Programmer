@@ -33,5 +33,7 @@ nav ul li a {
 }
 
 .flashing-text {
-    animation: flash 1s infinite; /* 1s duration, infinite looping */
+    animation: flash 1s infinite; 
 }
+
+
