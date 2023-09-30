@@ -4,6 +4,10 @@ body{
   padding: 0;
   color: #819595;
   background: #696773;
+  background-image: url('uva_aerial_sunrise.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
 }
 p{
   font-family: comic sans ms;
