@@ -77,6 +77,8 @@ info.addEventListener('click', function () {
   alert("To unenroll in a class(es), select all or select multiple classes. Then hit the unenroll button that appears below.")
 });
 
+const backButton = document.getElementById('back');
+
 backButton.addEventListener('click', function () {
     window.location.href = 'index.html'; 
 });
