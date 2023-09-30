@@ -33,4 +33,6 @@ p{
   padding: 10px 20px;
   position: fixed;
   bottom: 0;
+  background-color: #696773;
+  border: none;
 }
