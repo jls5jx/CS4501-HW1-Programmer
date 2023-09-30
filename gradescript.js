@@ -17,3 +17,7 @@ hoverTooltips.forEach((tooltip) => {
         popup.style.display = 'none';
     });
 });
+
+backButton.addEventListener('click', function () {
+    window.location.href = 'index.html'; 
+});
